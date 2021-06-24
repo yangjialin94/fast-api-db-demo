@@ -3,6 +3,7 @@ from . import models
 from .database import engine
 from .routers import authentication, blog, user
 
+
 app = FastAPI()
 
 

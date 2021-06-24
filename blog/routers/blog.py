@@ -4,6 +4,7 @@ from .. import schemas, database, oauth2
 from sqlalchemy.orm import Session
 from ..repository import blog
 
+
 router = APIRouter(prefix="/blog", tags=["Blogs"])
 get_db = database.get_db
 
